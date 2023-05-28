@@ -100,9 +100,9 @@ class _FoodBodyState extends State<FoodBody> {
             itemCount: 10,
             itemBuilder: (context, index) {
               return GestureDetector(
-              onTap: (){
-                 Get.toNamed(RouteHelper.getRecommendedFood());
-              },
+                onTap: () {
+                  Get.toNamed(RouteHelper.getRecommendedFood());
+                },
                 child: Container(
                   margin: EdgeInsets.only(
                       left: Dimension.width20,
